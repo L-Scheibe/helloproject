@@ -1,8 +1,13 @@
 // hello-programm in c++
 #include <iostream>
+#include <string>
 
+using namespace std;
 int main()
 {
-	std::cout << "Hallo liebe Leute" << std::endl;
+	string name;
+	cout << "Wie heisst du?" << endl;
+	cin >> name;
+	cout << "Hallo " << name << endl;
 	return 0;
 }
